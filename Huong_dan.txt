@@ -1,0 +1,15 @@
+Clone về máy:(hikari111pah là tài khoản)
+git clone https://github.com/hikari111pah/group-project-shopman.git
+
+Cách đăng cập nhật
+git status : ktra trạng thái
+git add file,folder : chỉ ra nội dung cập nhật
+git commit -m "Noi dung cap nhat"
+git push origin main
+
+vào web chọn: pull request
+
+Cập nhật về máy:
+git remote add up https://github.com/hikari111pah/group-project-shopman.git ("up" là tên đặt) 
+git fetch up main : Tải về nhánh nhưng ko nhập
+git pull up main : Tải về và nhập
